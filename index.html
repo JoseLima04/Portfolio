@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scroll.css">
     <title>Jose Lima - Portfolio</title>
 </head>
 <body>
@@ -26,8 +27,8 @@
     </header>
 
     <main>
-        <section class="home">
-            <div class="apresentacao">
+        <section class="home" >
+            <div class="apresentacao" data-anime="left">
                 <div class="home-left">
                     <p>Hello world! meu nome é</p>
                     <h1 id="name">José Lima</h1>
@@ -53,15 +54,15 @@
 
         <section class="sobre">
             <div class="area-sobre">
-                <div class="imagem-perfil">
+                <div class="imagem-perfil" data-anime="left">
                     <img src="assets/perfil.jpg" alt="foto-de-perfil">
                 </div>
-                <div class="texto-sobre">
+                <div class="texto-sobre" data-anime="right">
                     <h2>Sobre mim</h2>                    
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia dolore assumenda perspiciatis eum accusamus dignissimos ad nisi odit doloremque magni et excepturi, delectus facere cum illum vel nulla autem. Vitae.</p>
                 </div>    
                 
-                <div class="sobre-mim_buttons">
+                <div class="sobre-mim_buttons" data-anime="right">
                     <a href="#">
                         <div class="sobre-mim_linkedin">
                             <img src="assets/linkedin-icon2.png" alt="">
@@ -80,38 +81,38 @@
         </section>
 
         <section class="projetos">
-            <h2>Meus projetos</h2>
+            <h2 data-anime="down">Meus projetos</h2>
 
             <div class="cards-projetos">
-                <div class="card-projeto">
+                <div class="card-projeto" data-anime="left">
                     <img src="assets/tela-loading.jpg" alt="">
                 </div>
-                <div class="card-projeto">
+                <div class="card-projeto" data-anime="right">
                     <img src="assets/tela-loading.jpg" alt="">
                 </div>
-                <div class="card-projeto">
+                <div class="card-projeto" data-anime="left">
                     <img src="assets/tela-loading.jpg" alt="">
                 </div>
             </div>
 
-            <div class="card-projeto visivel">
+            <div class="card-projeto visivel" data-anime="right">
                 <img src="assets/tela-loading.jpg" alt="">
             </div>
-            <div class="card-projeto visivel">
+            <div class="card-projeto visivel" data-anime="left">
                 <img src="assets/tela-loading.jpg" alt="">
             </div>
-            <div class="card-projeto visivel">
+            <div class="card-projeto visivel" data-anime="right">
                 <img src="assets/tela-loading.jpg" alt="">
             </div>
         
-            <div class="button-projetos">
+            <div class="button-projetos" data-anime="down">
                 <a href="#">
                     <div class="vermais-Button">
                         <p>Ver mais</p>
                     </div>
                 </a>
                 <a href="#">
-                    <p id="repositorios-git">Ver repositórios no GitHub</p>
+                    <p id="repositorios-git" data-anime="up">Ver repositórios no GitHub</p>
                  </a>
             </div>
             
@@ -123,9 +124,9 @@
         </section>
 
         <section class="skills">
-            <h2>Habilidades</h2>
+            <h2 data-anime="down">Habilidades</h2>
 
-            <div class="area-tecnologias">
+            <div class="area-tecnologias" data-anime="up">
                 <div class="tecnologia">
                     <img src="assets/icon-html.webp" alt="">
                 </div>
@@ -144,10 +145,10 @@
 
                 <div class="tecnologia">
                     <img src="assets/icon-github.png" alt="">
-                </div>                           
-            </div>
+                </div>                          
+            </div> 
 
-            <div class="painel">
+            <div class="painel" data-anime="up">
                 <p>/* Passe o cursor e veja mais sobre cada tecnologia */</p>
             </div>
         </section>
