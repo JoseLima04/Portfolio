@@ -124,7 +124,7 @@ header{
 
 .sobre, .projetos, .skills{  
     padding: 30px 0;
-    min-height: 100vh;
+    min-height: 80vh;
 
 }
 .home-left p{
