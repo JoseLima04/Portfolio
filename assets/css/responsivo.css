@@ -1,0 +1,169 @@
+/* TELAS MENORES/LAPTOPS */
+
+@media (min-width: 769px) {
+    #list-menu {
+        position: static;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        visibility: visible;
+        overflow-y: visible;
+        font-size: 1.2rem;
+        border: 0;
+    }
+
+    .botao-menu {
+        display: none;
+    }
+
+    #list-menu li {
+        padding: 0;
+        border-bottom: 0;
+    }
+
+    .home-left {
+        width: 90%;
+        text-align: center;
+    }
+
+    .home-left h1 {
+        font-size: 40px;
+    }
+
+    .apresentacao{
+        font-size: 25px;
+        margin: 1.3rem 0;
+    }
+
+    /* 2 section */
+
+    .sobre,
+    .projetos,
+    .skills {
+        min-height: 45vh;
+        padding: 2% 0 4% 0;
+    }
+
+    .area-sobre {
+        margin: 0 auto;
+    }
+
+    .imagem-perfil img {
+        min-height: 29vh;
+        margin-right: 50px;
+    }
+
+    .sobre-right {
+        align-items: flex-start;
+    }
+
+    .area-sobre,
+    .cards-projetos,
+    .tec {
+        flex-direction: row;
+    }
+
+    .texto-sobre {
+        text-align: left;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    /* 3 section */
+    .cards-projetos {
+        gap: 15px;
+    }
+
+    /* 4 section */
+
+    .tec {
+        justify-content: center;
+    }
+
+    .area-tecnologias {
+        max-width: 45%;
+        justify-content: flex-start;
+    }
+
+    .painel {
+        max-width: 45%;
+    }
+
+}
+
+/* DESKTOPS */
+
+@media (min-width: 1025px) {
+    header {
+        height: 100px;
+    }
+
+    header a {
+        font-size: 22px;
+    }
+
+    .home {
+        padding: 8rem 0;
+    }
+
+    .home-left, .name{
+        text-align: left;        
+    }
+    
+    .home-left{
+        width: 30%;
+    }
+
+    .projetos h2,
+    .sobre h2,
+    .skills h2 {
+        font-size: 44px;
+        margin-bottom: 35px;
+    }
+
+    .principal-button{
+        justify-content: flex-start;
+    }
+
+    .home-right{
+        display: flex;
+    }
+
+    .area-sobre{
+        width: 50%; 
+    }
+
+    .texto-sobre p{
+        width: 500px;
+    }
+
+    .imagem-perfil img {
+        min-width: 15vw;
+    }
+
+    .texto-sobre {
+        width: 50%;
+    }
+
+    .card-projeto img {
+        max-width: 300px;
+        min-height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .tecnologia{
+        height: 100px;
+        width: 100px;
+        border-radius: 20px;
+        
+    }
+
+    .tecnologia img{
+        height: 70px;
+        width: 70px;
+    }
+
+    .painel{
+        margin-left: 90px;
+    }
+}

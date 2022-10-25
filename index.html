@@ -1,81 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="scroll.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/scroll.css">
+    <link rel="stylesheet" href="/assets/css/responsivo.css">
     <title>Jose Lima - Portfolio</title>
 </head>
+
 <body>
     <header>
-        <span class="logo">&lt/&gt</span>    
-        
-        <nav id="nav">
-            <span id="hamburger"></span>
+        <span class="logo" data-anime="left">&lt/&gt</span>
+
+        <nav id="nav" data-anime="left">
+            <span id="hamburger" class="botao-menu"></span>
             <ul id="list-menu">
                 <li><a href="/">Home</a></li>
                 <li><a href="/">Sobre</a></li>
                 <li><a href="/">Projetos</a></li>
                 <li><a href="/">Habilidades</a></li>
-              </ul>
+            </ul>
         </nav>
     </header>
 
     <main>
-        <section class="home" >
-            <div class="apresentacao" data-anime="left">
-                <div class="home-left">
-                    <p>Hello world! meu nome é</p>
-                    <h1 id="name">José Lima</h1>
-                    <p>Desenvolvedor front-end</p>
+        <section class="home">
 
-                    <div class="principal-button">
-                        <a href="https://github.com/JoseLima04" target="_blank">
-                            <div class="github-Button">
-                                <img src="assets/github-icon.png" alt="">
-                                <p>GitHub</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                
-                <div class="home-right">
-                    <img src="assets/dev.png" alt="dev">
+            <div class="home-left" data-anime="down">
+                <p class="apresentacao">Hello world! meu nome é</p>
+                <h1 id="name" class="name">José Lima</h1>
+                <p class="apresentacao">Desenvolvedor front-end</p>
+                <div class="principal-button">
+                    <a href="https://github.com/JoseLima04" target="_blank">
+                        <div class="github-Button">
+                            <img src="assets/img/github-icon.png" alt="">
+                            <p>GitHub</p>
+                        </div>
+                    </a>
                 </div>
             </div>
+
+
+            <div class="home-right" data-anime="down">
+                <img src="assets/img/dev.png" alt="dev">
+            </div>
+
         </section>
 
 
-        <section class="sobre">
-            <div class="area-sobre">
-                <div class="imagem-perfil" data-anime="left">
-                    <img src="assets/perfil.jpg" alt="foto-de-perfil">
-                </div>
-                <div class="texto-sobre" data-anime="right">
-                    <h2>Sobre mim</h2>                    
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia dolore assumenda perspiciatis eum accusamus dignissimos ad nisi odit doloremque magni et excepturi, delectus facere cum illum vel nulla autem. Vitae.</p>
-                </div>    
-                
-                <div class="sobre-mim_buttons" data-anime="right">
-                    <a href="#">
-                        <div class="sobre-mim_linkedin">
-                            <img src="assets/linkedin-icon2.png" alt="">
-                            <p>Linkedin</p>
-                        </div>
-                    </a>
+        <section class="sobre" >
+            <h2 data-anime="down">Sobre mim</h2>
 
-                    <a href="https://api.whatsapp.com/send?phone=5521976341635"  target="_blank">
-                        <div class="sobre-mim_contato">
-                            <img src="assets/wppIcon.png" alt="">
-                            <p>Contato</p>
-                        </div>
-                    </a>
+            <div class="area-sobre">              
+                <div class="imagem-perfil" data-anime="left">
+                    <img src="assets/img/perfil.jpg" alt="foto-de-perfil">
+                </div>
+                <div class="sobre-right">
+                    <div class="texto-sobre" data-anime="right">                       
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia dolore assumenda perspiciatis
+                            eum accusamus dignissimos ad nisi odit doloremque magni et excepturi, delectus facere cum illum
+                            vel nulla autem. Vitae.</p>
+                    </div>
+                    <div class="sobre-mim_buttons" data-anime="right">
+                        <a href="#">
+                            <div class="sobre-mim_linkedin">
+                                <img src="assets/img/linkedin-icon2.png" alt="">
+                                <p>Linkedin</p>
+                            </div>
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=5521976341635" target="_blank">
+                            <div class="sobre-mim_contato">
+                                <img src="assets/img/wppIcon.png" alt="">
+                                <p>Contato</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -85,26 +89,26 @@
 
             <div class="cards-projetos">
                 <div class="card-projeto" data-anime="left">
-                    <img src="assets/tela-loading.jpg" alt="">
+                    <img src="assets/img/tela-loading.jpg" alt="">
                 </div>
                 <div class="card-projeto" data-anime="right">
-                    <img src="assets/tela-loading.jpg" alt="">
+                    <img src="assets/img/tela-loading.jpg" alt="">
                 </div>
                 <div class="card-projeto" data-anime="left">
-                    <img src="assets/tela-loading.jpg" alt="">
+                    <img src="assets/img/tela-loading.jpg" alt="">
                 </div>
             </div>
 
             <div class="card-projeto visivel" data-anime="right">
-                <img src="assets/tela-loading.jpg" alt="">
+                <img src="assets/img/tela-loading.jpg" alt="">
             </div>
             <div class="card-projeto visivel" data-anime="left">
-                <img src="assets/tela-loading.jpg" alt="">
+                <img src="assets/img/tela-loading.jpg" alt="">
             </div>
             <div class="card-projeto visivel" data-anime="right">
-                <img src="assets/tela-loading.jpg" alt="">
+                <img src="assets/img/tela-loading.jpg" alt="">
             </div>
-        
+
             <div class="button-projetos" data-anime="down">
                 <a href="#">
                     <div class="vermais-Button">
@@ -113,10 +117,10 @@
                 </a>
                 <a href="#">
                     <p id="repositorios-git" data-anime="up">Ver repositórios no GitHub</p>
-                 </a>
+                </a>
             </div>
-            
-            
+
+
 
 
 
@@ -126,39 +130,38 @@
         <section class="skills">
             <h2 data-anime="down">Habilidades</h2>
 
-            <div class="area-tecnologias" data-anime="up">
-                <div class="tecnologia">
-                    <img src="assets/icon-html.webp" alt="">
+
+            <div class="tec">
+                <div class="area-tecnologias" data-anime="up">
+                    <div class="tecnologia">
+                        <img src="assets/img/icon-html.webp" alt="">
+                    </div>
+                    <div class="tecnologia">
+                        <img src="assets/img/icon-css.svg" alt="">
+                    </div>
+                    <div class="tecnologia">
+                        <img src="assets/img/icon-js.svg" alt="">
+                    </div>
+                    <div class="tecnologia">
+                        <img src="assets/img/icon-git.png" alt="">
+                    </div>
+                    <div class="tecnologia">
+                        <img src="assets/img/icon-github.png" alt="">
+                    </div>
                 </div>
-
-                <div class="tecnologia">
-                    <img src="assets/icon-css.svg" alt="">
+                <div class="painel" data-anime="up">
+                    <p>/* Passe o cursor e veja mais sobre cada tecnologia */</p>
                 </div>
-
-                <div class="tecnologia">
-                    <img src="assets/icon-js.svg" alt="">
-                </div>
-
-                <div class="tecnologia">
-                    <img src="assets/icon-git.png" alt="">
-                </div>
-
-                <div class="tecnologia">
-                    <img src="assets/icon-github.png" alt="">
-                </div>                          
-            </div> 
-
-            <div class="painel" data-anime="up">
-                <p>/* Passe o cursor e veja mais sobre cada tecnologia */</p>
             </div>
         </section>
     </main>
 
     <footer>
-        <p> <img src="assets/icon-email.png" alt=""> Email: jalimag0206@gmail.com</p>
+        <p>Email: jalimag0206@gmail.com</p>
         <p>Developed by: José Lima</p>
     </footer>
 
-    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="assets/js/main.js"></script>
 </body>
+
 </html>
