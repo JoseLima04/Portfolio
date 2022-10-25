@@ -57,10 +57,15 @@
         align-items: flex-start;
     }
 
+    .cards-projetos{
+        align-items: center;
+    }
+
     .area-sobre,
     .cards-projetos,
     .tec {
         flex-direction: row;
+        flex-wrap: nowrap;
     }
 
     .texto-sobre {
@@ -147,8 +152,12 @@
 
     .card-projeto img {
         max-width: 300px;
-        min-height: 200px;
+        min-height: 200px;      
+    }
+
+    .cards-projetos{
         margin-bottom: 20px;
+        flex-wrap: nowrap;
     }
 
     .tecnologia{

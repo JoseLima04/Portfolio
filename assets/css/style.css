@@ -4,7 +4,7 @@
     font-family: "Inter", sans-serif;
     box-sizing: border-box;
     color: #81D8F7;
-
+    scroll-behavior: smooth;
 }
 
 header {
@@ -15,7 +15,6 @@ header {
     height: 80px;
     padding: 0 12%;
     border-bottom: 1px solid #81D8F7;
-
 }
 
 a {
@@ -282,6 +281,7 @@ footer {
     padding: 10px;
     border-radius: 15px;
     width: 150px;
+    cursor: pointer;
 }
 
 
@@ -331,17 +331,26 @@ footer {
 .cards-projetos {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
     gap: 5px;
-
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-projeto img {
-    max-width: 250px;
+    max-width: 230px;
     border-radius: 11px;
 }
 
 .visivel img {
     display: none;
+}
+
+.visivel.active{
+    display: flex;
+    flex-direction: row;
 }
 
 .button-projetos {

@@ -20,16 +20,16 @@
         <nav id="nav" data-anime="left">
             <span id="hamburger" class="botao-menu"></span>
             <ul id="list-menu">
-                <li><a href="/">Home</a></li>
-                <li><a href="/">Sobre</a></li>
-                <li><a href="/">Projetos</a></li>
-                <li><a href="/">Habilidades</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="home">
+        <section class="home" id="home">
 
             <div class="home-left" data-anime="down">
                 <p class="apresentacao">Hello world! meu nome é</p>
@@ -53,17 +53,19 @@
         </section>
 
 
-        <section class="sobre" >
+        <section class="sobre" id="sobre">
             <h2 data-anime="down">Sobre mim</h2>
 
-            <div class="area-sobre">              
+            <div class="area-sobre">
                 <div class="imagem-perfil" data-anime="left">
                     <img src="assets/img/perfil.jpg" alt="foto-de-perfil">
                 </div>
                 <div class="sobre-right">
-                    <div class="texto-sobre" data-anime="right">                       
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia dolore assumenda perspiciatis
-                            eum accusamus dignissimos ad nisi odit doloremque magni et excepturi, delectus facere cum illum
+                    <div class="texto-sobre" data-anime="right">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia dolore assumenda
+                            perspiciatis
+                            eum accusamus dignissimos ad nisi odit doloremque magni et excepturi, delectus facere cum
+                            illum
                             vel nulla autem. Vitae.</p>
                     </div>
                     <div class="sobre-mim_buttons" data-anime="right">
@@ -84,7 +86,7 @@
             </div>
         </section>
 
-        <section class="projetos">
+        <section class="projetos" id="projetos">
             <h2 data-anime="down">Meus projetos</h2>
 
             <div class="cards-projetos">
@@ -97,37 +99,33 @@
                 <div class="card-projeto" data-anime="left">
                     <img src="assets/img/tela-loading.jpg" alt="">
                 </div>
+
+
+                <div class="card-projeto " id="visivel" data-anime="down">
+                    <img src="assets/img/tela-loading.jpg" alt="">
+                </div>
+                <div class="card-projeto visivel" id="visivel" data-anime="down">
+                    <img src="assets/img/tela-loading.jpg" alt="">
+                </div>
+                <div class="card-projeto visivel" id="visivel" data-anime="down">
+                    <img src="assets/img/tela-loading.jpg" alt="">
+                </div>
             </div>
 
-            <div class="card-projeto visivel" data-anime="right">
-                <img src="assets/img/tela-loading.jpg" alt="">
-            </div>
-            <div class="card-projeto visivel" data-anime="left">
-                <img src="assets/img/tela-loading.jpg" alt="">
-            </div>
-            <div class="card-projeto visivel" data-anime="right">
-                <img src="assets/img/tela-loading.jpg" alt="">
-            </div>
 
             <div class="button-projetos" data-anime="down">
-                <a href="#">
-                    <div class="vermais-Button">
-                        <p>Ver mais</p>
-                    </div>
-                </a>
-                <a href="#">
+
+                <div class="vermais-Button" id="ver-mais">
+                    <p>Ver mais</p>
+                </div>
+
+                <a href="https://github.com/JoseLima04?tab=repositories" target="_blank">
                     <p id="repositorios-git" data-anime="up">Ver repositórios no GitHub</p>
                 </a>
             </div>
-
-
-
-
-
-
         </section>
 
-        <section class="skills">
+        <section class="skills" id="skills">
             <h2 data-anime="down">Habilidades</h2>
 
 
