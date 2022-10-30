@@ -1,8 +1,12 @@
-const button = document.getElementById("ver-mais")
-
+const button = document.querySelector('.vermais-Button')
 export default function verMais(){
-    const cards = document.getElementById('visivel')    
-    cards.classList.toggle("visivel")
+    
+    const card = document.querySelector('.hidden')   
+    if(card.classList == 'hidden'){
+        card.classList.remove('hidden')
+    }else{
+        card.classList.add('hidden')
+    }
 
 }
 

@@ -35,17 +35,19 @@
         margin: 1.3rem 0;
     }
 
-    /* 2 section */
 
     .sobre,
     .projetos,
     .skills {
         min-height: 45vh;
-        padding: 2% 0 4% 0;
+        padding: 25px 0 120px 0;
     }
 
     .area-sobre {
-        margin: 0 auto;
+        width: 60%; 
+        display: flex;
+        justify-content: space-evenly;
+        
     }
 
     .imagem-perfil img {
@@ -57,15 +59,10 @@
         align-items: flex-start;
     }
 
-    .cards-projetos{
-        align-items: center;
-    }
-
     .area-sobre,
-    .cards-projetos,
     .tec {
         flex-direction: row;
-        flex-wrap: nowrap;
+        
     }
 
     .texto-sobre {
@@ -74,12 +71,16 @@
         width: 100%;
     }
 
-    /* 3 section */
+
     .cards-projetos {
-        gap: 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 25px;
+        width: 85%;
+        align-items: center;
     }
 
-    /* 4 section */
+
 
     .tec {
         justify-content: center;
@@ -135,15 +136,20 @@
     }
 
     .area-sobre{
-        width: 50%; 
+        width: 60%; 
+        display: flex;
+        justify-content: space-evenly;
     }
 
     .texto-sobre p{
-        width: 500px;
+        font-size: 22px;
+        line-height: 32px;
+        width: 600px;
     }
 
     .imagem-perfil img {
         min-width: 15vw;
+        
     }
 
     .texto-sobre {
@@ -151,13 +157,13 @@
     }
 
     .card-projeto img {
-        max-width: 300px;
-        min-height: 200px;      
+        height: 195px;
+        width: 310px;    
     }
 
     .cards-projetos{
+        width: 100%;
         margin-bottom: 20px;
-        flex-wrap: nowrap;
     }
 
     .tecnologia{
@@ -175,4 +181,13 @@
     .painel{
         margin-left: 90px;
     }
+}
+
+
+
+@media (min-width: 1350px) {
+    .cards-projetos{
+        width: 65%;
+    }
+
 }
