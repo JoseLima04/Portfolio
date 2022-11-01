@@ -1,3 +1,19 @@
+/* */
+@media (min-width: 481px){
+    .tecnologia{
+        height: 90px;
+        width: 90px;
+        
+    }
+
+    .tecnologia img{
+        height: 60px;
+        width: 60px;
+    }
+}
+
+
+
 /* TELAS MENORES/LAPTOPS */
 
 @media (min-width: 769px) {
@@ -39,8 +55,7 @@
     .sobre,
     .projetos,
     .skills {
-        min-height: 45vh;
-        padding: 25px 0 120px 0;
+        padding: 25px 0 80px 0;
     }
 
     .area-sobre {
@@ -80,10 +95,15 @@
         align-items: center;
     }
 
+    .projetos-escondido{
+        flex-direction: row;
+    }
+
 
 
     .tec {
         justify-content: center;
+        align-items: flex-start;
     }
 
     .area-tecnologias {
@@ -93,6 +113,7 @@
 
     .painel {
         max-width: 45%;
+        margin-left: 180px;
     }
 
 }
@@ -157,8 +178,8 @@
     }
 
     .card-projeto img {
-        height: 195px;
-        width: 310px;    
+        height: 201px;
+        width: 275px;    
     }
 
     .cards-projetos{
@@ -179,7 +200,9 @@
     }
 
     .painel{
-        margin-left: 90px;
+        
+        width: 500px;
+        height: 540px;
     }
 }
 

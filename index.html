@@ -14,6 +14,8 @@
 </head>
 
 <body>
+
+    <!-- Navegação -->
     <header>
         <span class="logo" data-anime="left">&lt/&gt</span>
 
@@ -27,135 +29,189 @@
             </ul>
         </nav>
     </header>
+    <!-- Navegação -->
 
     <main>
-        <section class="home" id="home">
 
-            <div class="home-left" data-anime="down">
-                <p class="apresentacao">Hello world! meu nome é</p>
-                <h1 id="name" class="name">José Lima</h1>
-                <p class="apresentacao">Desenvolvedor front-end</p>
-                <div class="principal-button">
-                    <a href="https://github.com/JoseLima04" target="_blank">
-                        <div class="github-Button">
-                            <img src="assets/img/github-icon.png" alt="">
-                            <p>GitHub</p>
+        <!-- Tela principal -->
+        <section id="home">
+            <div class="home">
+                <div class="home-left" data-anime="down">
+                    <p class="apresentacao">Hello world! meu nome é</p>
+                    <h1 id="name" class="name">José Lima</h1>
+                    <p class="apresentacao">Desenvolvedor front-end</p>
+                    <div class="principal-button">
+                        <a href="https://github.com/JoseLima04" target="_blank">
+                            <div class="github-Button">
+                                <img src="assets/img/github-icon.png" alt="">
+                                <p>GitHub</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="home-right" data-anime="down">
+                    <img src="assets/img/dev.png" alt="dev">
+                </div>
+            </div>
+
+        </section>
+        <!-- Tela principal -->
+
+
+        <!-- Sobre mim -->
+        <section id="sobre">
+            <div class="sobre">
+                <h2 data-anime="down">Sobre mim</h2>
+                <div class="area-sobre">
+                    <div class="imagem-perfil" data-anime="left">
+                        <img src="assets/img/perfil.jpg" alt="foto-de-perfil">
+                    </div>
+
+
+                    <div class="sobre-right">
+                        <div class="texto-sobre" data-anime="right">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia dolore assumenda
+                                perspiciatis
+                                eum accusamus dignissimos ad nisi odit doloremque magni et excepturi, delectus facere
+                                cum
+                                illum
+                                vel nulla autem. Vitae.</p>
                         </div>
+
+
+
+
+                        <div class="sobre-mim_buttons" data-anime="right">
+                            <a href="https://www.linkedin.com/in/jose-limag/" target="_blank">
+                                <div class="sobre-mim_linkedin">
+                                    <img src="assets/img/linkedin-icon2.png" alt="">
+                                    <p>Linkedin</p>
+                                </div>
+                            </a>
+
+                            <a href="https://api.whatsapp.com/send?phone=5521976341635" target="_blank">
+                                <div class="sobre-mim_contato">
+                                    <img src="assets/img/wppIcon.png" alt="">
+                                    <p>Contato</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- Sobre mim -->
+
+
+        <!-- Meus projetos -->
+        <section id="projetos">
+            <div class="projetos">
+                <h2 data-anime="down">Meus projetos</h2>
+                <div class="cards-projetos">
+
+                    <div class="card-projeto" data-anime="down">
+                        <img src="assets/img/tela-loading.jpg" alt="">
+                    </div>
+
+                    <div class="card-projeto" data-anime="down">
+                        <img src="assets/img/tela-loading.jpg" alt="">
+                    </div>
+
+                    <div class="card-projeto" data-anime="down">
+                        <img src="assets/img/tela-loading.jpg" alt="">
+                    </div>
+
+                    <div class="projetos-escondido">
+                        <div class="card-projeto">
+                            <img src="assets/img/tela-loading.jpg" alt="">
+                        </div>
+                        <div class="card-projeto ">
+                            <img src="assets/img/tela-loading.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="button-projetos" data-anime="down">
+                    <div class="vermais-Button" id="ver-mais">
+                        <p>Ver mais</p>
+                    </div>
+                    <a href="https://github.com/JoseLima04?tab=repositories" target="_blank">
+                        <p id="repositorios-git" data-anime="up">Ver repositórios no GitHub</p>
                     </a>
                 </div>
             </div>
 
-
-            <div class="home-right" data-anime="down">
-                <img src="assets/img/dev.png" alt="dev">
-            </div>
-
         </section>
+        <!-- Meus projetos -->
 
 
-        <section class="sobre" id="sobre">
-            <h2 data-anime="down">Sobre mim</h2>
+        <!-- Habilidades -->
+        <section id="skills">
+            <div class="skills">
+                <h2 data-anime="down">Habilidades</h2>
+                <div class="tec">
+                    <div class="area-tecnologias" data-anime="up">
 
-            <div class="area-sobre">
-                <div class="imagem-perfil" data-anime="left">
-                    <img src="assets/img/perfil.jpg" alt="foto-de-perfil">
-                </div>
-                <div class="sobre-right">
-                    <div class="texto-sobre" data-anime="right">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia dolore assumenda
-                            perspiciatis
-                            eum accusamus dignissimos ad nisi odit doloremque magni et excepturi, delectus facere cum
-                            illum
-                            vel nulla autem. Vitae.</p>
-                    </div>
-                    <div class="sobre-mim_buttons" data-anime="right">
-                        <a href="#">
-                            <div class="sobre-mim_linkedin">
-                                <img src="assets/img/linkedin-icon2.png" alt="">
-                                <p>Linkedin</p>
+                        <div class="tecs">
+                            <div class="tecnologia" id="html" >
+                                <img src="assets/img/icon-html.webp" alt="">
                             </div>
-                        </a>
-                        <a href="https://api.whatsapp.com/send?phone=5521976341635" target="_blank">
-                            <div class="sobre-mim_contato">
-                                <img src="assets/img/wppIcon.png" alt="">
-                                <p>Contato</p>
+                            <div class="tecnologia" id="css">
+                                <img src="assets/img/icon-css.svg" alt="">
                             </div>
-                        </a>
+                            <div class="tecnologia" id="js">
+                                <img src="assets/img/icon-js.svg" alt="">
+                            </div>
+                        </div>
+
+
+                        <div class="tecs">
+                            <div class="tecnologia" id="git">
+                                <img src="assets/img/icon-git.png" alt="">
+                            </div>
+                            <div class="tecnologia" id="github">
+                                <img src="assets/img/icon-github.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="painel" data-anime="up">
+                        <div class="info-skills">
+                            
+                            <p class="nome-tec" id="nome-tec">HTML</p>
+
+                            <div class="imagem-painel">
+                                <img src="#" alt="" id="logo-tec">
+                            </div>
+                            
+                            <p class="sobre-tec" id="desc-tec"></p>
+
+                            <p class="sobre-tec" id="conhecimento-tec"></p>
+
+                            <p class="sobre-tec" id="exp-tec"></p>
+                            
+                        </div>
+
+                        <p id="mensagem">/* Passe o cursor e veja mais sobre cada tecnologia */</p>
                     </div>
                 </div>
+
             </div>
         </section>
+        <!-- Habilidades -->
 
-        <section class="projetos" id="projetos">
-            <h2 data-anime="down">Meus projetos</h2>
-
-            <div class="cards-projetos">
-                <div class="card-projeto" data-anime="left">
-                    <img src="assets/img/tela-loading.jpg" alt="">
-                </div>
-                <div class="card-projeto" data-anime="right">
-                    <img src="assets/img/tela-loading.jpg" alt="">
-                </div>
-                <div class="card-projeto" data-anime="left">
-                    <img src="assets/img/tela-loading.jpg" alt="">
-                </div>
-
-
-                <div class="card-projeto hidden" id="hidden" data-anime="down">
-                    <img src="assets/img/tela-loading.jpg" alt="">
-                </div>
-                <div class="card-projeto hidden" id="hidden" data-anime="down">
-                    <img src="assets/img/tela-loading.jpg" alt="">
-                </div>
-            </div>
-
-
-            <div class="button-projetos" data-anime="down">
-
-                <div class="vermais-Button" id="ver-mais">
-                    <p>Ver mais</p>
-                </div>
-
-                <a href="https://github.com/JoseLima04?tab=repositories" target="_blank">
-                    <p id="repositorios-git" data-anime="up">Ver repositórios no GitHub</p>
-                </a>
-            </div>
-        </section>
-
-        <section class="skills" id="skills">
-            <h2 data-anime="down">Habilidades</h2>
-
-
-            <div class="tec">
-                <div class="area-tecnologias" data-anime="up">
-                    <div class="tecnologia">
-                        <img src="assets/img/icon-html.webp" alt="">
-                    </div>
-                    <div class="tecnologia">
-                        <img src="assets/img/icon-css.svg" alt="">
-                    </div>
-                    <div class="tecnologia">
-                        <img src="assets/img/icon-js.svg" alt="">
-                    </div>
-                    <div class="tecnologia">
-                        <img src="assets/img/icon-git.png" alt="">
-                    </div>
-                    <div class="tecnologia">
-                        <img src="assets/img/icon-github.png" alt="">
-                    </div>
-                </div>
-                <div class="painel" data-anime="up">
-                    <p>/* Passe o cursor e veja mais sobre cada tecnologia */</p>
-                </div>
-            </div>
-        </section>
     </main>
 
+    <!-- Rodapé -->
     <footer>
         <p>Developed by: José Lima</p>
         <p>Email: jalimag0206@gmail.com</p>
     </footer>
-
+    <!-- Rodapé -->
     <script type="module" src="assets/js/main.js"></script>
 </body>
 
