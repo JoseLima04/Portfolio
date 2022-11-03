@@ -204,11 +204,14 @@ footer {
 
 .texto-sobre {
     margin-top: 20px;
-    text-align: center;
     width: 80%;
     line-height: 25px;
     margin-bottom: 5px;
     font-size: 20px;
+}
+
+.texto-sobre p{
+    margin-bottom: 5px;
 }
 
 .principal-button {
@@ -399,7 +402,7 @@ footer {
 
 .tecnologia:hover{
     cursor: pointer;
-    transform: translate(0, -15px);
+    transform: translate(0, -15px);   
     transition: 0.7s;
 }
 
@@ -422,6 +425,7 @@ footer {
 
 .info-skills{
     display: none;
+    transition: opacity 800ms;
 }
 
 #mensagem{

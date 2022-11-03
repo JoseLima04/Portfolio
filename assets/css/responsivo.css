@@ -58,11 +58,18 @@
         padding: 25px 0 80px 0;
     }
 
+    .projetos h2,
+    .sobre h2,
+    .skills h2 {
+        font-size: 44px;
+        margin-bottom: 35px;
+    }
+
     .area-sobre {
         width: 60%; 
         display: flex;
         justify-content: space-evenly;
-        
+        align-items: flex-start;
     }
 
     .imagem-perfil img {
@@ -81,8 +88,6 @@
     }
 
     .texto-sobre {
-        text-align: left;
-        font-size: 20px;
         width: 100%;
     }
 
@@ -141,15 +146,42 @@
         width: 30%;
     }
 
-    .projetos h2,
-    .sobre h2,
-    .skills h2 {
-        font-size: 44px;
-        margin-bottom: 35px;
-    }
-
     .principal-button{
         justify-content: flex-start;
+    }
+
+    .github-Button{
+        height: 80px;
+        width: 280px;
+        
+
+    }
+
+    .github-Button p{
+        font-size: 30px;
+    }
+
+    .github-Button img{
+        width: 40px;
+        margin-left: 35px;
+        
+    }
+    
+    .sobre-mim_linkedin img,
+    .sobre-mim_contato img{
+        width: 25px;
+        margin-left: 15px;
+    }
+
+    .sobre-mim_buttons{
+        width: 420px;
+    }
+
+    .sobre-mim_linkedin,
+    .sobre-mim_contato{
+        width: 170px;
+        height: 60px;
+        font-size: 18px;
     }
 
     .home-right{
@@ -165,16 +197,12 @@
     .texto-sobre p{
         font-size: 22px;
         line-height: 32px;
-        width: 600px;
+        width: 700px;
     }
 
     .imagem-perfil img {
         min-width: 15vw;
         
-    }
-
-    .texto-sobre {
-        width: 50%;
     }
 
     .card-projeto img {
