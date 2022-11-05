@@ -3,11 +3,5 @@ import animeScroll from '/assets/js/modules/animateScroll.js';
 import typing from '/assets/js/modules/typing.js';
 import verMais from '/assets/js/modules/verMais.js';
 import { showSkillHtml, showSkillCss, showSkillJs, showSkillGit, showSkillGithub } from '/assets/js/modules/showSkills.js';
-
 import hideSkill from './modules/hideSkill.js';
 
-clickMenu();
-animeScroll();
-typing();
-verMais();
-hideSkill();

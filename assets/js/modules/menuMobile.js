@@ -6,7 +6,7 @@ export default function clickMenu(){
  
 }
 btnMobile.addEventListener('click', clickMenu)  
-clickMenu()
+
 
 
 
