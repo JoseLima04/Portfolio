@@ -1,5 +1,3 @@
-const html = document.getElementById('html')
-const css = document.getElementById('css')
 const infoSkills = document.querySelector('.info-skills')
 const mensagem = document.getElementById('mensagem')
 const nome = document.getElementById('nome-tec')
@@ -10,7 +8,7 @@ const experiencia = document.getElementById('exp-tec')
 
 export function showSkillHtml(){
 
-    const logo = document.getElementById('logo-tec').src="assets/img/icon-html.webp"
+    const logo = document.getElementById('logo-tec').src="assets/img/logo-html.png"
 
     nome.textContent = "HTML"
 
@@ -27,13 +25,13 @@ export function showSkillHtml(){
 
 export function showSkillCss(){
 
-    const logo = document.getElementById('logo-tec').src="assets/img/icon-css.svg"
+    const logo = document.getElementById('logo-tec').src="assets/img/logo-css.png"
 
     nome.textContent = "CSS"
 
     descricao.innerHTML = "<span>Descrição:</span> É uma linguagem de estilo fundamental para a estilização de páginas web."
 
-    conhecimento.innerHTML = "<span>Conhecimento:</span>Possuo bastante familiaridade com a tecnologia, juntamente do html foram as primeiras que comecei a estudar e ja possuo uma boa experiència com a mesma. "
+    conhecimento.innerHTML = "<span>Conhecimento:</span>Possuo bastante familiaridade com a tecnologia, juntamente do html foram as primeiras que comecei a estudar e ja possuo uma boa experiencia com a mesma. "
 
     experiencia.innerHTML = "<span>Experiência:</span> Tenho 6 meses de experiência com essa tecnologia."
 
@@ -44,7 +42,7 @@ export function showSkillCss(){
 
 export function showSkillJs(){
 
-    const logo = document.getElementById('logo-tec').src="assets/img/icon-js.svg"
+    const logo = document.getElementById('logo-tec').src="assets/img/logo-js.png"
 
     nome.textContent = "JavaScript"
 
@@ -61,7 +59,7 @@ export function showSkillJs(){
 
 export function showSkillGit(){
 
-    const logo = document.getElementById('logo-tec').src="assets/img/icon-git.png"
+    const logo = document.getElementById('logo-tec').src="assets/img/logo-git.png"
 
     nome.textContent = "Git"
 
@@ -78,13 +76,13 @@ export function showSkillGit(){
 
 export function showSkillGithub(){
 
-    const logo = document.getElementById('logo-tec').src="assets/img/github-icon3.png"
+    const logo = document.getElementById('logo-tec').src="assets/img/logo-github.png"
 
     nome.textContent = "GitHub"
 
     descricao.innerHTML = "<span>Descrição:</span> É uma plataforma de programadores na qual voce pode criar e compartilhar seus projetos e muito mais."
 
-    conhecimento.innerHTML = "<span>Conhecimento:</span>Um bom perfil no gihub é fundamental para todo bom programador, por isso sempre mantenho meu perfil atualizado e com todos meus projetos nos em seus repositórios. "
+    conhecimento.innerHTML = "<span>Conhecimento:</span>Um bom perfil no github é fundamental para todo bom programador, por isso sempre mantenho meu perfil e repositórios atualizados. "
 
     experiencia.innerHTML = "<span>Experiência:</span> Tenho 5 meses de experiência com essa tecnologia."
 
@@ -93,6 +91,24 @@ export function showSkillGithub(){
   
 }
 
+export function showSkillReact(){
+
+    const logo = document.getElementById('logo-tec').src="assets/img/logo-react.png"
+
+    nome.textContent = "ReactJS"
+
+    descricao.innerHTML = "<span>Descrição:</span> React é uma biblioteca javascript muito utilizada na criação de interfaces de usuário."
+
+    conhecimento.innerHTML = "<span>Conhecimento:</span>"
+
+    experiencia.innerHTML = "<span>Experiência:</span> "
+
+    infoSkills.style.display = "block"
+    mensagem.style.display = "none"
+  
+}
+
+
 
 
 html.addEventListener("mouseover", showSkillHtml)
@@ -100,3 +116,4 @@ css.addEventListener("mouseover", showSkillCss)
 js.addEventListener("mouseover", showSkillJs)
 git.addEventListener("mouseover", showSkillGit)
 github.addEventListener("mouseover", showSkillGithub)
+react.addEventListener("mouseover", showSkillReact)

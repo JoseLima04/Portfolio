@@ -11,10 +11,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #0B0B0C;
     height: 80px;
     padding: 0 12%;
-    border-bottom: 1px solid #81D8F7;
+    border-bottom: 2px solid #202022ce;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
 }
 
 a {
@@ -106,17 +108,15 @@ a:hover {
     min-height: 75vh;
 }
 
-.header,
+header,
 .home,
-.projetos,
-footer {
-    background-color: #0B0B0C;
-}
-
 .sobre,
-.skills {
+.projetos,
+.skills,
+footer {
     background-color: #121214;
 }
+
 
 
 .home,
@@ -127,7 +127,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid #81D8F7;
+    border-bottom: 2px solid #202022ce;
     
 
 }
@@ -135,7 +135,7 @@ footer {
 .sobre,
 .projetos,
 .skills {
-    padding: 15px 0 100px 0;
+    padding: 25px 0 100px 0;
     min-height: 20vh;
 }
 
@@ -329,7 +329,8 @@ footer {
 .skills h2 {
     margin-bottom: 25px;
     text-align: center;
-    font-size: 30px;
+    font-size: 38px;
+    font-weight: bold;
 }
 
 .cards-projetos {
@@ -393,8 +394,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #C0C0C0;
-    height: 70px;
+    background-color: #3C4143;
+    height: 85px;
     width: 80px;
     border-radius: 10px;
     cursor: pointer;
@@ -403,15 +404,16 @@ footer {
 .tecnologia:hover{
     cursor: pointer;
     transform: translate(0, -15px);   
-    transition: 0.7s;
+    transition: 0.3s;
 }
 
 
 .tecnologia img {
     height: 50px;
     width: 50px;
-    background-color: #C0C0C0;
+    
 }
+
 
 
 .painel {         

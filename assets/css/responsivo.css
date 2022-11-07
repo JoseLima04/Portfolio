@@ -52,11 +52,7 @@
     }
 
 
-    .sobre,
-    .projetos,
-    .skills {
-        padding: 25px 0 80px 0;
-    }
+
 
     .projetos h2,
     .sobre h2,
@@ -218,13 +214,12 @@
     .tecnologia{
         height: 100px;
         width: 100px;
-        border-radius: 20px;
         
     }
 
     .tecnologia img{
-        height: 70px;
-        width: 70px;
+        height: 60px;
+        width: 60px;
     }
 
     .painel{       
