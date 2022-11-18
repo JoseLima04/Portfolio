@@ -94,7 +94,7 @@ export function showSkillReact(){
 
     descricao.innerHTML = "<span>Descrição:</span> React é uma biblioteca javascript muito utilizada na criação de interfaces de usuário."
 
-    conhecimento.innerHTML = "<span>Conhecimento:</span>"
+    conhecimento.innerHTML = "<span>Conhecimento: React é uma das tecnologias mais utilizadas hoje no mercado front-end e ja possuo uma boa familiaridade com os recursos que a tecnologia tem a oferecer.</span>"
 
    
 
@@ -112,3 +112,6 @@ js.addEventListener("mouseover", showSkillJs)
 git.addEventListener("mouseover", showSkillGit)
 github.addEventListener("mouseover", showSkillGithub)
 react.addEventListener("mouseover", showSkillReact)
+
+
+
