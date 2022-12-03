@@ -244,6 +244,12 @@ footer {
     cursor: hover;
 }
 
+.github-Button:hover, .sobre-mim_contato:hover, .sobre-mim_linkedin:hover, .vermais-Button:hover {
+    background-color: #272727;
+    text-shadow: 1px 1px 3px #00bbc5;
+    transition: .3s;
+}
+
 .github-Button img {
     margin-left: 25px;
     margin-right: 10px;
@@ -514,3 +520,6 @@ footer img {
     justify-content: center;
     margin-bottom: 10px;
 }
+
+
+
