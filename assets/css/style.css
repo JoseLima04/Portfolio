@@ -1,7 +1,7 @@
 * {
     margin: 0;
     border: 0;
-    font-family: "Inter", sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     box-sizing: border-box;
     color: #81D8F7;
     scroll-behavior: smooth;
@@ -17,6 +17,10 @@ header {
     position: fixed;
     z-index: 1000;
     width: 100%;
+}
+
+h2{
+    font-family: 'Zen Dots', cursive;
 }
 
 a {
@@ -443,9 +447,10 @@ footer {
 
 .nome-tec{
     color: #fff;
-    font-size: 25px;
+    font-size: 30px;
     padding-top: 5px;
     font-weight: bold;
+    font-style: italic;
 }
 
 .nome-tec,.imagem-painel{
@@ -489,22 +494,23 @@ footer {
 footer {
     text-align: center;
     padding: 30px;
-
+    
 }
 
 footer p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex;   
     color: #fff;
-    margin-bottom: 2px;
 }
 
 footer img {
-    background-color: #fff;
-    padding: 5px;
-    border-radius: 50px;
     margin-right: 5px;
-    width: 24px;
-    height: 24px;
+    width: 18px;
+    height: 18px;
+}
+
+.copy, .email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
 }
