@@ -88,18 +88,7 @@
     }
 
 
-    .cards-projetos {
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 25px;
-        width: 85%;
-        align-items: center;
-    }
-
-    .projetos-escondido{
-        flex-direction: row;
-    }
-
+   
 
 
     .tec {
