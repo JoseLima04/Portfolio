@@ -10,7 +10,7 @@
         height: 60px;
         width: 60px;
     }
-}
+
 
 
 
@@ -51,10 +51,7 @@
         margin: 1.3rem 0;
     }
 
-
-
-
-    .projetos h2,
+    #projetos h2,
     .sobre h2,
     .skills h2 {
         font-size: 44px;
@@ -87,9 +84,11 @@
         width: 100%;
     }
 
-
-   
-
+    .container-cards{
+        grid-template-columns: 1fr 1fr;
+        gap: 75px;
+        width: auto;
+    }
 
     .tec {
         justify-content: center;
@@ -190,14 +189,13 @@
         
     }
 
-    .card-projeto img {
-        height: 201px;
-        width: 275px;    
+    .card{
+        width: 450px;
     }
 
-    .cards-projetos{
-        width: 100%;
-        margin-bottom: 20px;
+    .container-cards{
+        flex-direction: row;
+        
     }
 
     .tecnologia{
@@ -216,12 +214,5 @@
         height: 540px;
     }
 }
-
-
-
-@media (min-width: 1350px) {
-    .cards-projetos{
-        width: 65%;
-    }
 
 }
