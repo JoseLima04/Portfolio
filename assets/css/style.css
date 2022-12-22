@@ -386,6 +386,7 @@ footer {
     max-width: 430px;
     min-width: 350px;
     
+    
 }
 
 .content{
@@ -446,7 +447,7 @@ footer {
     border: 1px solid #00bbc5;
     padding: 15px 40px;
     width: 150px;
-    font-size: 16px;
+    font-size: 14px;
     color: #C4C4C4;
     background-color: #121214;
 }
