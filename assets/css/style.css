@@ -244,10 +244,13 @@ footer {
     align-items: center;
     font-weight: bold;
     transition: 0.3s;
-    cursor: hover;
 }
 
-.github-Button:hover, .sobre-mim_contato:hover, .sobre-mim_linkedin:hover, .vermais-Button:hover {
+.github-Button:hover,
+.sobre-mim_contato:hover,
+.sobre-mim_linkedin:hover,
+.vermais-Button:hover,
+.verMais-projetos:hover  {
     background-color: #272727;
     text-shadow: 1px 1px 3px #00bbc5;
     transition: .3s;
@@ -435,6 +438,24 @@ footer {
     
     
 }
+
+.verMais-projetos{
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid #00bbc5;
+    padding: 15px 40px;
+    width: 150px;
+    font-size: 16px;
+    color: #C4C4C4;
+    background-color: #121214;
+}
+
+.hidden{
+    display: none;
+}
+
+
 
 .read-button:hover{
     color: #000;
