@@ -44,6 +44,7 @@ a {
     background-color: #121212;
     border-radius: 10px;
     border: 1px solid #81D8F7;
+    padding: 0 15px;
     
 }
 
@@ -57,17 +58,31 @@ a {
 }
 
 #list-menu a {
-    margin: 0 1rem;
     color: #81D8F7;
+    position: relative;
+    padding-bottom: 3px;
 }
 
-#list-menu a:hover {
-    color: #ebe2e2;
-}
+
 
 #list-menu li {
     padding-bottom: 0.6rem;
     border-bottom: 1px solid #1C1C1C;
+}
+
+#list-menu a::after {
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    background-color: #81D8F7;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: .5s ease-in-out;
+}
+
+#list-menu a:hover::after{
+    width: 100%;
 }
 
 
@@ -199,6 +214,10 @@ footer {
     width: 248px;
     height: 233px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.521);
+}
+
+.imagem-perfil img:hover{
+    opacity: 80%;
 }
 
 .sobre-right {
@@ -355,7 +374,11 @@ footer {
 .icon img{
     width: 100%;
     border-radius: 10px;
-    
+}
+
+.icon img:hover{
+    transform: scale(105%);
+    border: 1px solid #81D8F7;
 }
 
 #projetos h2{
@@ -369,8 +392,6 @@ footer {
     justify-content: center;
     width: 85%;
     gap: 35px;
-    
-    
 }
 
 .card{
@@ -471,6 +492,16 @@ footer {
 
 .card.active .content::before{
     visibility: hidden;
+}
+
+.link-repositorios{
+    margin-top: 15px;
+    color: #b7b7b7;
+}
+
+.link-repositorios:hover{
+    color: #FFD700;
+    transition: 0.5s;
 }
 
 .tec {
