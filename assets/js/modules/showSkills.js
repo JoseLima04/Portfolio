@@ -6,7 +6,7 @@ const conhecimento = document.getElementById('conhecimento-tec')
 const experiencia = document.getElementById('exp-tec')
 
 
-export function showSkillHtml(){
+export function showSkillHtml() {
 
     const logo = document.getElementById('logo-tec').src="assets/img/logo-html.png"
 
