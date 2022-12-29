@@ -1,12 +1,12 @@
-export default function typing(elemento){
-    const textoArray = elemento.innerHTML.split('');
-    elemento.innerHTML = ' ';
+export default function typing(element){
+    const textArray = element.innerHTML.split('');
+    element.innerHTML = ' ';
 
-    textoArray.forEach(function(valor,pos){
+    textArray.forEach(function(value,pos){
         setTimeout(function(){
-            elemento.innerHTML += valor;
+            element.innerHTML += value;
         }, 300 * pos)
     });   
 }
-const nome = document.getElementById("name");  
-typing(nome);
+const name = document.querySelector('.name');  
+typing(name);
