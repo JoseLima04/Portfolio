@@ -1,14 +1,11 @@
 [data-anime]{
     opacity: 0;
-    transition: 1.5s;
+    transition: 2s;
+    
 }
 
 [data-anime="down"]{
     transform: translate3d(0, -100%, 0);
-}
-
-[data-anime="up"]{
-    transform: translate3d(0, 100%, 0);
 }
 
 [data-anime="left"]{
@@ -22,4 +19,16 @@
 [data-anime].animate{
     opacity: 1;
     transform: translate3d(0, 0, 0);
+    animation: appear;
+    animation-duration: 2s;
+}
+
+
+@keyframes appear {
+    from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
 }

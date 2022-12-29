@@ -5,10 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/scroll.css">
     <link rel="stylesheet" href="/assets/css/responsivo.css">
@@ -19,9 +17,9 @@
 
     <!-- Navegação -->
     <header>
-        <span class="logo" data-anime="left">&lt/&gt</span>
+        <span class="logo" data-anime>&lt/&gt</span>
 
-        <nav id="nav" data-anime="left">
+        <nav id="nav" data-anime>
             <span id="hamburger" class="botao-menu"></span>
             <ul id="list-menu">
                 <li><a href="#home">Home</a></li>
@@ -36,66 +34,56 @@
     <main>
 
         <!-- Tela principal -->
-        <section id="home">
-            <div class="home">
-                <div class="home-left" data-anime="down">
-                    <p class="apresentacao">Hello world! meu nome é</p>
-                    <h1 id="name" class="name">José Lima</h1>
-                    <p class="apresentacao">Desenvolvedor front-end</p>
-                    <div class="principal-button">
-                        <a href="https://github.com/devjoselima" target="_blank">
-                            <div class="github-Button">
-                                <img src="assets/img/github-icon.png" alt="">
-                                <p>GitHub</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="home-right" data-anime="down">
-                    <img src="assets/img/dev.png" alt="dev">
+        <section class="home">
+            <div class="home-left" data-anime="down" data-anime>
+                <h1 class="name">José Lima</h1>
+                <span>Front end web developer</span>
+                <div class="principal-button">
+                    <a href="https://github.com/devjoselima" target="_blank">
+                        <div class="github-Button">
+                            <img src="assets/img/github-icon.png" alt="">
+                            <p>GitHub</p>
+                        </div>
+                    </a>
                 </div>
             </div>
+            <div class="home-right" data-anime="down" data-anime>
+                <img src="assets/img/dev.png" alt="dev">
+            </div>
+
 
         </section>
         <!-- Tela principal -->
 
 
         <!-- Sobre mim -->
-        <section id="sobre">
-            <div class="sobre">
-                <h2 data-anime="down">Sobre mim</h2>
-                <div class="area-sobre">
-                    <div class="imagem-perfil" data-anime="left">
-                        <img src="assets/img/perfil.jpg" alt="foto-de-perfil">
+        <section class="sobre" id="sobre">
+            <h2 data-anime="down">Sobre mim</h2>
+
+            <p class="about-content" data-anime>
+                Olá! Eu me chamo José, tenho 18 anos e atualmente estudo a área front-end com objetivo de me tornar um
+                desenvolvedor full stack futuramente. Me considero ágil, focado e consistente no estudo de novas
+                tecnologias e busco sempre aprimorar meu conhecimento estando em um
+                constante aprendizado.
+            </p>
+
+
+            <div class="container-buttons" data-anime="right">
+                <a href="https://www.linkedin.com/in/jose-limag/" target="_blank">
+                    <div class="container-button-linkedin">
+                        <img src="assets/img/linkedin-icon2.png" alt="">
+                        <p>Linkedin</p>
                     </div>
+                </a>
 
-
-                    <div class="sobre-right">
-                        <div class="texto-sobre" data-anime="right">
-                            <p>Olá! Eu me chamo José, tenho 18 anos e atualmente estudo a área front-end com objetivo de me tornar um desenvolvedor full stack futuramente. Me considero ágil, focado e consistente no estudo de novas tecnologias e busco sempre aprimorar meu conhecimento estando em um constante aprendizado.  </p>
-                        </div>
-
-
-
-
-                        <div class="sobre-mim_buttons" data-anime="right">
-                            <a href="https://www.linkedin.com/in/jose-limag/" target="_blank">
-                                <div class="sobre-mim_linkedin">
-                                    <img src="assets/img/linkedin-icon2.png" alt="">
-                                    <p>Linkedin</p>
-                                </div>
-                            </a>
-
-                            <a href="assets/curriculo.pdf" download="">
-                                <div class="sobre-mim_contato">
-                                    <img src="assets/img/email.png" alt="">
-                                    <p>Currículo</p>
-                                </div>
-                            </a>
-                        </div>
+                <a href="assets/curriculo.pdf" download="">
+                    <div class="container-button-contato">
+                        <img src="assets/img/email.png" alt="">
+                        <p>Currículo</p>
                     </div>
-                </div>
+                </a>
             </div>
+
 
         </section>
         <!-- Sobre mim -->
@@ -105,128 +93,210 @@
 
 
         <!-- Meus projetos -->
-        <section id="projetos">
+        <section id="projetos" class="projects">
             <h2 data-anime="down">Meus projetos</h2>
-            <div class="projetos">               
-                <div class="container-cards">
+            <div class="container-projects">
+                <div class="container-cards" data-anime>
 
-                    <div class="card" data-anime="left">
+                    <div class="card">
                         <div class="icon">
-                            <a href="https://quiz-copa.vercel.app/" target="_blank"><img src="assets/img/projeto2.PNG" alt=""></a>
+                            <a href="https://quiz-copa.vercel.app/" target="_blank">
+                                <img src="assets/img/projeto1.PNG" alt="imagem-card">
+                            </a>
+
                         </div>
                         <div class="content">
                             <h3>Quiz Copa do Mundo</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem debitis dignissimos praesentium amet quia voluptatum voluptates aliquid in? Atque corrupti labore alias accusamus, aut delectus quod libero aperiam autem nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur reiciendis suscipit ab nobis quam adipisci, omnis officia a impedit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure assumenda commodi architecto corrupti itaque incidunt, voluptatum earum velit sapiente repellat nesciunt numquam sed eligendi alias? Nemo optio necessitatibus nam et?  </p>
+                            <p>Um game de perguntas para voce testar seu conhecimento sobre a principal competição de
+                                futebol do mundo. </p>
+
+
                         </div>
-                        <button class="read-button">Ler mais</button>
-                    </div>
-                    
-                    <div class="card card2" data-anime="left">
-                        <div class="icon">
-                            <a href="https://quiz-copa.vercel.app/" target="_blank"><img src="assets/img/projeto2.PNG" alt=""></a>
+
+                        <p class="used-techs-paragraph">Técnologias usadas:</p>
+                        <ul class="used-techs">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Javascript</li>
+                            <li>React</li>
+                        </ul>
+                        <div class="container-buttons-card">
+                            <a href="https://github.com/devjoselima/quiz-copa" target="_blank">
+                                <button class="button-card">
+                                    Ver repositório
+                                </button>
+                            </a>
+                            <a href="https://quiz-copa.vercel.app/" target="_blank">
+                                <button class="button-card">
+                                    Ver projeto
+                                </button>
+                            </a>
+
                         </div>
-                        <div class="content">
-                            <h3>Quiz Copa do Mundo</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem debitis dignissimos praesentium amet quia voluptatum voluptates aliquid in? Atque corrupti labore alias accusamus, aut delectus quod libero aperiam autem nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur reiciendis suscipit ab nobis quam adipisci, omnis officia a impedit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure assumenda commodi architecto corrupti itaque incidunt, voluptatum earum velit sapiente repellat nesciunt numquam sed eligendi alias? Nemo optio necessitatibus nam et?</p>
-                        </div>
-                        <button class="read-button read-button2 ">Ler mais</button>
-                    </div>
-                    <div class="card card3 hidden" data-anime="up">
-                        <div class="icon">
-                            <a href="https://quiz-copa.vercel.app/" target="_blank"><img src="assets/img/projeto2.PNG" alt=""></a>
-                        </div>
-                        <div class="content">
-                            <h3>Quiz Copa do Mundo</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem debitis dignissimos praesentium amet quia voluptatum voluptates aliquid in? Atque corrupti labore alias accusamus, aut delectus quod libero aperiam autem nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur reiciendis suscipit ab nobis quam adipisci, omnis officia a impedit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure assumenda commodi architecto corrupti itaque incidunt, voluptatum earum velit sapiente repellat nesciunt numquam sed eligendi alias? Nemo optio necessitatibus nam et?</p>
-                        </div>
-                        <button class="read-button read-button3">Ler mais</button>
+
                     </div>
 
-                    <div class="card card4 hidden" data-anime="up">
+
+                    <div class="card card2">
                         <div class="icon">
-                            <a href="https://quiz-copa.vercel.app/" target="_blank"><img src="assets/img/projeto2.PNG" alt=""></a>
+                            <a href="https://to-do-list-five-theta.vercel.app" target="_blank">
+                                <img src="assets/img/projeto2.PNG" alt="imagem-card">
+                            </a>
                         </div>
+
                         <div class="content">
-                            <h3>Quiz Copa do Mundo</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem debitis dignissimos praesentium amet quia voluptatum voluptates aliquid in? Atque corrupti labore alias accusamus, aut delectus quod libero aperiam autem nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur reiciendis suscipit ab nobis quam adipisci, omnis officia a impedit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure assumenda commodi architecto corrupti itaque incidunt, voluptatum earum velit sapiente repellat nesciunt numquam sed eligendi alias? Nemo optio necessitatibus nam et?</p>
+                            <h3>To Do List</h3>
+                            <p>Uma ferramenta na qual você pode adicionar e remover qualquer tipo de tarefa ou
+                                compromisso.</p>
+
+
                         </div>
-                        <button class="read-button read-button4">Ler mais</button>
+
+                        <p class="used-techs-paragraph">Técnologias usadas:</p>
+                        <ul class="used-techs">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Javascript</li>
+                            <li>React</li>
+                        </ul>
+
+                        <div class="container-buttons-card">
+                            <a href="https://github.com/devjoselima/ToDoList" target="_blank">
+                                <button class="button-card">
+                                    Ver repositório
+                                </button>
+                            </a>
+                            <a href="https://to-do-list-five-theta.vercel.app/" target="_blank">
+                                <button class="button-card">
+                                    Ver projeto
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div class="card card3 hidden">
+                        <div class="icon">
+                            <a href="" target="_blank">
+                                <img src="" alt="">
+                            </a>
+                        </div>
+
+                        <!-- <div class="content">
+                            <h3>Em breve</h3>
+                            <p></p>
+                        </div>
+                        <p class="used-techs-paragraph">Técnologias usadas:</p>
+                        <ul class="used-techs">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Javascript</li>
+                            <li>React</li>
+                        </ul>
+
+                        <div class="container-buttons-card">
+                            <a href="">
+                                <button class="button-card">
+                                    Ver repositório
+                                </button>
+                            </a>
+                            <a href="">
+                                <button class="button-card">
+                                    Ver projeto
+                                </button>
+                            </a>
+                        </div> -->
+                    </div>
+
+
+                    <div class="card card4 hidden">
+                        <div>
+                            <a href="#" target="_blank">
+                                <img src="" alt="">
+                            </a>
+                        </div>
+
+                        <!-- <div class="content">
+                            <h3>Em breve</h3>
+                            <p></p>
+                        </div>
+                        <p class="used-techs-paragraph">Técnologias usadas:</p>
+                        <ul class="used-techs">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Javascript</li>
+                            <li>React</li>
+                        </ul>
+
+                        <div class="container-buttons-card">
+                            <a href="">
+                                <button class="button-card">
+                                    Ver repositório
+                                </button>
+                            </a>
+                            <a href="">
+                                <button class="button-card">
+                                    Ver projeto
+                                </button>
+                            </a>
+                        </div> -->
                     </div>
                 </div>
+
+
                 <button class="verMais-projetos">Ver mais</button>
-                <a href="https://github.com/devjoselima?tab=repositories" target="_blank" class="link-repositorios">Ver repositórios no github</a>
-            </div>    
+                <a href="https://github.com/devjoselima?tab=repositories" class="other-repositories">Ver outros
+                    repositorios</a>
+            </div>
 
 
         </section>
         <!-- Meus projetos -->
-            
+
 
 
 
 
         <!-- Habilidades -->
-        <section id="skills">
-            <div class="skills">
-                <h2 data-anime="down">Habilidades</h2>
-                <div class="tec">
-                    <div class="area-tecnologias" data-anime="up">
+        <section id="skills" class="section-skills">
+            <h2 data-anime="down">Habilidades</h2>
 
-                        <div class="tecs">                            
-                            <div class="tecnologia" id="html" >
-                                <img src="assets/img/logo-html.png" alt="logo-html">
-                            </div>
-
-                            <div class="tecnologia" id="css">
-                                <img src="assets/img/logo-css.png" alt="logo-css">
-                            </div>
-
-                            <div class="tecnologia" id="js">
-                                <img src="assets/img/logo-js.png" alt="logo-javascript">
-                            </div>
-                        </div>
-
-
-                        <div class="tecs">
-                            <div class="tecnologia" id="git">
-                                <img src="assets/img/logo-git.png" alt="logo-git">
-                            </div>
-
-                            <div class="tecnologia" id="github">
-                                <img src="assets/img/logo-github.png" alt="logo-github">
-                            </div>
-
-                            <div class="tecnologia" id="react">
-                                <img src="assets/img/logo-react.png" alt="logo-react">
-                            </div>
-                            
-
-                        </div>
-
-                        
-                    </div>
-
-
-                    <div class="painel" data-anime="up">
-                        <div class="info-skills">
-                            
-                            <p class="nome-tec" id="nome-tec">HTML</p>
-
-                            <div class="imagem-painel">
-                                <img src="#" alt="" id="logo-tec">
-                            </div>
-                            
-                            <p class="sobre-tec" id="desc-tec"></p>
-
-                            <p class="sobre-tec" id="conhecimento-tec"></p>                            
-                            
-                        </div>
-
-                        <p id="mensagem">/* Passe o cursor ou clique em alguma tecnologia para ver mais sobre ela */</p>
-                    </div>
+            <div class="skill-container">
+                <div class="skill-info" data-anime="left" data-anime>
+                    <h3 class="skill-title">/* Passe o mouse e veja mais sobre cada skill */</h3>
+                    <p class="skill-content"></p>
                 </div>
 
+                <div class="container-tech" data-anime="right" data-anime>
+
+                    <div class="skill html">
+                        <img class="html" src="assets/img/logo-html.png" alt="logo-html">
+                    </div>
+
+                    <div class="skill css">
+                        <img class="css" src="assets/img/logo-css.png" alt="logo-css">
+                    </div>
+
+                    <div class="skill js">
+                        <img class="js" src="assets/img/logo-js.png" alt="logo-javascript">
+                    </div>
+
+
+                    <div class="skill git">
+                        <img class="git" src="assets/img/logo-git.png" alt="logo-git">
+                    </div>
+
+                    <div class="skill github">
+                        <img class="github" src="assets/img/logo-github.png" alt="logo-github">
+                    </div>
+
+                    <div class="skill react" id="react">
+                        <img class="react" src="assets/img/logo-react.png" alt="logo-react">
+                    </div>
+
+                </div>
             </div>
+
         </section>
         <!-- Habilidades -->
 
@@ -234,16 +304,8 @@
 
     <!-- Rodapé -->
     <footer>
-        <div class="copy">
-            <img src="assets/img/copyright.png">
-                <p>Developed by: José Lima</p>
-            </img>
-        </div>
-        <div class="email">
-            <img src="assets/img/email.png">
-                <p>Email: jalimag0206@gmail.com</p>
-            </img>
-        </div>
+        <span>&copy; Developed by: José Lima</span>
+        <span>Contact: <a href="mailto:jalimg0206@gmail.com">jalimag0206@gmail.com</a></span>
     </footer>
     <!-- Rodapé -->
     <script type="module" src="assets/js/main.js"></script>

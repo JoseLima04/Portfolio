@@ -1,16 +1,8 @@
-/* */
-@media (min-width: 481px){
-    .tecnologia{
-        height: 90px;
-        width: 90px;
-        
+@media (min-width: 481px ) and (max-width: 768px) {
+    .container-cards{
+        flex-wrap: wrap;
     }
-
-    .tecnologia img{
-        height: 60px;
-        width: 60px;
-    }
-
+}
 
 
 
@@ -36,80 +28,58 @@
     .botao-menu {
         display: none;
     }
-
+    
     #list-menu li {
         padding: 0;
         border-bottom: 0;
     }
-
+    
     .home-left {
         width: 90%;
-        text-align: center;
     }
-
-    .home-left h1 {
-        font-size: 40px;
-    }
-
-    .apresentacao{
-        font-size: 25px;
-        margin: 1.3rem 0;
+    
+    
+    
+    .home-right{
+        display: flex;
     }
 
     #projetos h2,
     .sobre h2,
     .skills h2 {
-        font-size: 44px;
         margin-bottom: 35px;
     }
 
-    .area-sobre {
-        width: 60%; 
-        display: flex;
-        justify-content: space-evenly;
-        align-items: flex-start;
-    }
-
-    .imagem-perfil img {
-        min-height: 29vh;
-        margin-right: 50px;
-    }
-
-    .sobre-right {
-        align-items: flex-start;
-    }
-
-    .area-sobre,
-    .tec {
-        flex-direction: row;
-        
-    }
-
-    .texto-sobre {
-        width: 100%;
-    }
 
     .container-cards{
-        grid-template-columns: 1fr 1fr;
-        gap: 75px;
-        width: auto;
+        max-width: 80%;
+        flex-direction: row;
     }
 
-    .tec {
-        justify-content: center;
-        align-items: flex-start;
+    .about-content {
+        width: 35%;   
     }
 
-    .area-tecnologias {
-        max-width: 45%;
-        justify-content: flex-start;
+    .card{
+        width: 50%;
     }
 
-    .painel {
-        max-width: 45%;
-        margin-left: 180px;
+    .skill-container{
+        width: 80%;
+        flex-direction: row;
+        align-items: center;      
     }
 
+    .container-tech{
+        flex-direction: row; 
+        min-width: 400px; 
+        max-width: 480px;   
+    }
+
+    .skill{
+        height: 90px;
+        width: 95px;
+    }
 }
 
 /* DESKTOPS */
@@ -140,84 +110,30 @@
     }
 
     .github-Button{
-        height: 80px;
-        width: 280px;
-        
-
+        height: 70px;
     }
 
     .github-Button p{
-        font-size: 30px;
+        font-size: 1.5rem;
     }
 
-    .github-Button img{
-        width: 40px;
-        margin-left: 35px;
-        
-    }
-    
-    .sobre-mim_linkedin img,
-    .sobre-mim_contato img{
+
+    .container-button-linkedin img,
+    .container-button-contato img{
         width: 25px;
         margin-left: 15px;
     }
 
-    .sobre-mim_buttons{
-        width: 420px;
-    }
+    
 
-    .sobre-mim_linkedin,
-    .sobre-mim_contato{
+    .container-button-linkedin,
+    .container-button-contato{
         width: 170px;
         height: 60px;
         font-size: 18px;
     }
 
-    .home-right{
-        display: flex;
-    }
 
-    .area-sobre{
-        width: 60%; 
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .texto-sobre p{
-        font-size: 22px;
-        line-height: 32px;
-        width: 700px;
-    }
-
-    .imagem-perfil img {
-        min-width: 15vw;
-        
-    }
-
-    .card{
-        width: 450px;
-    }
-
-    .container-cards{
-        flex-direction: row;
-        
-    }
-
-    .tecnologia{
-        height: 100px;
-        width: 100px;
-        
-    }
-
-    .tecnologia img{
-        height: 60px;
-        width: 60px;
-    }
-
-    .painel{       
-        width: 500px;
-        height: 540px;
-    }
+    
 }
 
-}
