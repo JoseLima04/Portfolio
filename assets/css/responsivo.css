@@ -80,6 +80,10 @@
         height: 90px;
         width: 95px;
     }
+
+    .skill-title{
+        font-size: 1.5rem;
+    }
 }
 
 /* DESKTOPS */
@@ -133,7 +137,7 @@
         font-size: 18px;
     }
 
-
+    
     
 }
 

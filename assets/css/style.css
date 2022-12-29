@@ -536,6 +536,7 @@ header,
 
 .skill-info{
    min-width: 50%;  
+   margin-bottom: 0.8rem;
 }
 
 .skill-title{
@@ -550,7 +551,7 @@ header,
     font-size: 1.1rem;
     color: #E8E6E3;
     margin-bottom: 1.4rem;
-    max-width: 70%;
+    max-width: 90%;
 }
 
 .container-tech{    
