@@ -10,7 +10,6 @@
     transition: .9s;
     visibility: hidden;
     overflow-y: hidden;
-    padding: 0;
     background-color: #121212;
     border-radius: 10px;
     border: 1px solid #81D8F7;
@@ -56,15 +55,15 @@
 }
 
 
-.botao-menu {
+.btn-menu {
     display: block;
     border-top: 2px solid #81D8F7;
     width: 20px;
     color: #81D8F7;
 }
 
-.botao-menu:after,
-.botao-menu:before {
+.btn-menu:after,
+.btn-menu:before {
     content: '';
     display: block;
     width: 20px;
@@ -75,15 +74,15 @@
     position: relative;
 }
 
-#nav.active .botao-menu {
+#nav.active .btn-menu {
     border-top-color: transparent;
 }
 
-#nav.active .botao-menu:before {
+#nav.active .btn-menu:before {
     transform: rotate(135deg);
 }
 
-#nav.active .botao-menu:after {
+#nav.active .btn-menu:after {
     transform: rotate(-135deg);
     top: -7px;
 }
