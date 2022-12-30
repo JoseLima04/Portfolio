@@ -7,6 +7,10 @@
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: #121214;
+}
+
 
 header {
     display: flex;
@@ -18,6 +22,7 @@ header {
     position: fixed;
     z-index: 1000;
     width: 100%;
+    background-color: #121214
 }
 
 
@@ -27,95 +32,6 @@ a {
     color: #C4C4C4;
 }
 
-#list-menu {
-    display: block;
-    position: absolute;
-    top: 55px;
-    right: 0;
-    z-index: 1000;
-    height: 0px;
-    list-style: none;
-    gap: 0.7rem;
-    transition: .9s;
-    visibility: hidden;
-    overflow-y: hidden;
-    padding: 0;
-    background-color: #121212;
-    border-radius: 10px;
-    border: 1px solid #81D8F7;
-    padding: 0 15px;
-    
-}
-
-#nav.active #list-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: calc(26vh - 55px);
-    visibility: visible;
-    overflow-y: auto;
-}
-
-#list-menu a {
-    color: #81D8F7;
-    position: relative;
-    padding-bottom: 3px;
-}
-
-
-
-#list-menu li {
-    padding-bottom: 0.6rem;
-    border-bottom: 1px solid #1C1C1C;
-}
-
-#list-menu a::after {
-    content: ' ';
-    width: 0%;
-    height: 2px;
-    background-color: #81D8F7;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transition: .5s ease-in-out;
-}
-
-#list-menu a:hover::after{
-    width: 100%;
-}
-
-
-.botao-menu {
-    display: block;
-    border-top: 2px solid #81D8F7;
-    width: 20px;
-    color: #81D8F7;
-}
-
-.botao-menu:after,
-.botao-menu:before {
-    content: '';
-    display: block;
-    width: 20px;
-    height: 2px;
-    background: currentColor;
-    margin-top: 5px;
-    transition: 0.9s;
-    position: relative;
-}
-
-#nav.active .botao-menu {
-    border-top-color: transparent;
-}
-
-#nav.active .botao-menu:before {
-    transform: rotate(135deg);
-}
-
-#nav.active .botao-menu:after {
-    transform: rotate(-135deg);
-    top: -7px;
-}
 
 .logo {
     font-size: 1.5rem;
@@ -151,34 +67,10 @@ a {
 
 
 
-.cargo{
+.job{
     font-size: 1rem;
     color: #43cbfc;
     font-weight: bolder;
-}
-
-
-@keyframes blink {
-    0%,
-    100% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 0;
-    }
-}
-
-@keyframes float{
-    0%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(15px);
-    }
-    100%{
-        transform: translateY(0);
-    }
 }
 
 .home-right {
@@ -189,17 +81,9 @@ a {
     animation: float 2.1s infinite;
 }
 
-header,
-.home,
-.sobre,
-#projetos,
-.section-skills{
-    background-color: #121214;
-}
 
-
-.sobre,
-.projects,
+.section-aboutMe,
+.section-projects,
 .section-skills{
     display: flex;
     align-items: center;
@@ -211,12 +95,11 @@ header,
 }
 
 .about-content{
-    width: 85%;
+    width: 90%;
     color: #C4C4C4;
     margin: 1rem auto;
     line-height: 1.2rem;
     letter-spacing: 0.050rem;
-    font-size: 1.1rem;
 }
 
 
@@ -235,7 +118,7 @@ header,
 }
 
 
-.principal-button {
+.home-button {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
@@ -264,7 +147,7 @@ header,
 .container-button-contato:hover,
 .container-button-linkedin:hover,
 .vermais-Button:hover,
-.verMais-projetos:hover  {
+.viewMore-projects:hover  {
     background-color: #272727;
     text-shadow: 1px 1px 3px #00bbc5;
     transition: .3s;
@@ -287,11 +170,6 @@ header,
 
 }
 
-.container-buttons a,
-.principal-button a,
-.button-projetos a {
-    text-decoration: none;
-}
 
 .container-button-linkedin,
 .container-button-contato {
@@ -357,8 +235,8 @@ header,
     flex-wrap: wrap;
 }
 
-#projetos h2,
-.sobre h2,
+.section-projects h2,
+.section-aboutMe h2,
 .section-skills h2 {
     color: #81D8F7;
     margin-bottom: 35px;
@@ -367,9 +245,7 @@ header,
     font-weight: bold;
 }
 
-#projetos h2{
-    padding-top: 20px;
-}
+
 
 .container-cards{
     display: flex;  
@@ -494,7 +370,7 @@ header,
     transition: .3s;
 }
 
-.verMais-projetos{
+.viewMore-projects{
     margin-top: 20px;
     cursor: pointer;
     border-radius: 15px;
@@ -512,7 +388,7 @@ header,
 
 
 .other-repositories{
-    margin-top: 15px;
+    margin: 1.25rem 0;
     color: #b7b7b7;
 }
 
@@ -536,7 +412,7 @@ header,
 }
 
 .skill-title{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #f0dfdf;
     border-left: 3px solid #81D8F7;
     padding-left: 0.4rem;  
@@ -594,7 +470,6 @@ footer {
 }
 
 
-
 footer span{
     display: block;
     margin-bottom: 0.7rem;
@@ -604,6 +479,30 @@ footer span a:hover{
     text-decoration: underline;
     filter: invert(25%);
     transition: .5s;
+}
+
+
+@keyframes blink {
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes float{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 
 

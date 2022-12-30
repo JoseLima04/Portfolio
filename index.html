@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+    <link rel="stylesheet" href="/assets/css/menuMobile.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/scroll.css">
     <link rel="stylesheet" href="/assets/css/responsivo.css">
+    
     <title>Jose Lima - Portfolio</title>
 </head>
 
@@ -20,7 +22,7 @@
         <span class="logo" data-anime>&lt/&gt</span>
 
         <nav id="nav" data-anime>
-            <span id="hamburger" class="botao-menu"></span>
+            <span class="btn-menu"></span>
             <ul id="list-menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#sobre">Sobre</a></li>
@@ -37,11 +39,11 @@
         <section class="home">
             <div class="home-left" >
                 <h1 class="name">José Lima</h1>
-                <span class="cargo">Front end web developer</span>
-                <div class="principal-button">
+                <span class="job">Front end web developer</span>
+                <div class="home-button">
                     <a href="https://github.com/devjoselima" target="_blank">
                         <div class="github-Button">
-                            <img src="assets/img/github-icon.png" alt="">
+                            <img src="assets/img/github-icon.png" alt="github logo">
                             <p>GitHub</p>
                         </div>
                     </a>
@@ -57,7 +59,7 @@
 
 
         <!-- Sobre mim -->
-        <section class="sobre" id="sobre">
+        <section id="aboutMe" class="section-aboutMe"" >
             <h2 data-anime>Sobre mim</h2>
 
             <p class="about-content" data-anime>
@@ -68,14 +70,14 @@
             <div class="container-buttons" data-anime="right">
                 <a href="https://www.linkedin.com/in/jose-limag/" target="_blank">
                     <div class="container-button-linkedin">
-                        <img src="assets/img/linkedin-icon2.png" alt="">
+                        <img src="assets/img/linkedin-icon2.png" alt="linkedin logo">
                         <p>Linkedin</p>
                     </div>
                 </a>
 
                 <a href="assets/curriculo.pdf" download="">
                     <div class="container-button-contato">
-                        <img src="assets/img/email.png" alt="">
+                        <img src="assets/img/email.png" alt="download image">
                         <p>Currículo</p>
                     </div>
                 </a>
@@ -90,7 +92,7 @@
 
 
         <!-- Meus projetos -->
-        <section id="projetos" class="projects">
+        <section id="projects" class="section-projects">
             <h2 data-anime="down">Meus projetos</h2>
             <div class="container-projects">
                 <div class="container-cards" data-anime>
@@ -241,8 +243,8 @@
                 </div>
 
 
-                <button class="verMais-projetos" data-anime>Ver mais</button>
-                <a href="https://github.com/devjoselima?tab=repositories" class="other-repositories" data-anime>Ver outros
+                <button class="viewMore-projects" >Ver mais</button>
+                <a href="https://github.com/devjoselima?tab=repositories" class="other-repositories">Ver outros
                     repositorios</a>
             </div>
 
@@ -302,7 +304,7 @@
     <!-- Rodapé -->
     <footer>
         <span>&copy; Developed by: José Lima</span>
-        <span>Contact: <a href="mailto:jalimg0206@gmail.com">jalimag0206@gmail.com</a></span>
+        <span>Contact: <a href="mailto:jalimag0206@gmail.com">jalimag0206@gmail.com</a></span>
     </footer>
     <!-- Rodapé -->
     <script type="module" src="assets/js/main.js"></script>

@@ -1,0 +1,108 @@
+/* hamburguer */
+
+.btn-menu {
+    display: block;
+    border-top: 2px solid #81D8F7;
+    width: 20px;
+    color: #81D8F7;
+}
+
+.btn-menu:after,
+.btn-menu:before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.9s;
+    position: relative;
+}
+
+#nav.active .btn-menu {
+    border-top-color: transparent;
+}
+
+#nav.active .btn-menu:before {
+    transform: rotate(135deg);
+}
+
+#nav.active .btn-menu:after {
+    transform: rotate(-135deg);
+    top: -7px;
+}
+
+/* HOVER */
+#list-menu a::after {
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    background-color: #81D8F7;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: .5s ease-in-out;
+}
+
+#list-menu a:hover::after{
+    width: 100%;
+}
+
+#list-menu a::after {
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    background-color: #81D8F7;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: .5s ease-in-out;
+}
+
+#list-menu a:hover::after{
+    width: 100%;
+}
+
+
+/* LISTA */
+#list-menu {
+    display: block;
+    position: absolute;
+    top: 55px;
+    right: 0;
+    height: 0px;
+    z-index: 1000;   
+    list-style: none;
+    gap: 0.7rem;
+    transition: .9s;
+    visibility: hidden;
+    overflow-y: hidden;
+    border-radius: 10px;
+    border: 1px solid #81D8F7;
+    padding: 0 15px;
+    
+}
+
+#nav.active #list-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(26vh - 55px);
+    visibility: visible;
+    overflow-y: auto;
+    background-color: #121212;
+}
+
+#list-menu a {
+    color: #81D8F7;
+    
+}
+
+#list-menu li {
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid #1C1C1C;
+}
+
+
+
+

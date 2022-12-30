@@ -1,8 +1,8 @@
-const readMore = document.querySelector('.verMais-projetos');
+const btnViewMore = document.querySelector('.viewMore-projects');
 
 
 
-export function verMais() {
+export function viewMore() {
     const card3 = document.querySelector('.card3');
     const card4 = document.querySelector('.card4');
 
@@ -11,12 +11,12 @@ export function verMais() {
     
 
     if(card3.classList.contains('hidden') && card4.classList.contains('hidden')){
-        return readMore.textContent = 'Ver mais';
+        return btnViewMore.textContent = 'Ver mais';
     }
 
-    return readMore.textContent = 'Ver menos';
+    return btnViewMore.textContent = 'Ver menos';
 }
     
 
 
-readMore.addEventListener('click', verMais)
+btnViewMore.addEventListener('click', viewMore)

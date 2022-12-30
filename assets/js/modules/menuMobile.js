@@ -1,4 +1,4 @@
-const btnMobile = document.getElementById("hamburger")
+const btnMobile = document.querySelector('.btn-menu')
 
 export default function clickMenu(){   
     const nav = document.getElementById('nav');

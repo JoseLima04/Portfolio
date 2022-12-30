@@ -7,7 +7,7 @@ const nameSkill = document.querySelector('.skill-title');
 const avaliableSkills = {
     html: {
       title: 'HTML5',
-      content: 'Possuo conhecimento básico/intermediário'
+      content: 'Possuo conhecimento intermediário/avançado'
     },
     css: {
       title: 'CSS3',
@@ -15,7 +15,7 @@ const avaliableSkills = {
     },
     git: {
       title: 'Git',
-      content: 'Possuo conhecimento básico'
+      content: 'Possuo conhecimento básico/intermediário'
     },
     github: {
       title: 'Github',

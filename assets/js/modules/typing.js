@@ -1,29 +1,29 @@
-const meuNome = document.querySelector('.name'); 
-const meuCargo = document.querySelector('.cargo'); 
-const fName = meuNome.innerHTML;
-const fCargo = meuCargo.innerHTML;
-meuNome.innerHTML='';
-meuCargo.innerHTML='';
+const myName = document.querySelector('.name'); 
+const myJob = document.querySelector('.job'); 
+const fName = myName.innerHTML;
+const fjob = myJob.innerHTML;
+myName.innerHTML='';
+myJob.innerHTML='';
 const button = document.querySelector('.github-Button');
 
-export default function typeWriter (nome, cargo) {
+export default function typeWriter (name, job) {
     setTimeout( () => {
     
-    const meuNomeF = nome.split('');
-    meuNome.innerHTML='';
-    meuNomeF.forEach( (letra, index) => {
+    const myNameF = name.split('');
+    myName.innerHTML='';
+    myNameF.forEach( (letter, index) => {
         setTimeout(function (){
-            meuNome.innerHTML += letra;
+            myName.innerHTML += letter;
         }, 150 * index)
     })}, 1500)
 
     setTimeout( () => {
-        const meuCargoF = cargo.split('');
-        meuCargo.innerHTML='';
-        meuCargoF.forEach( (letra2, index2) =>{
+        const myJobF = job.split('');
+        myJob.innerHTML='';
+        myJobF.forEach( (letter, index) =>{
             setTimeout(function (){
-                meuCargo.innerHTML += letra2;
-            }, 150 * index2)
+                myJob.innerHTML += letter;
+            }, 150 * index)
         })
     }, 3000)
 
@@ -39,7 +39,7 @@ export default function typeWriter (nome, cargo) {
 
 
 
-typeWriter(fName,fCargo )
+typeWriter(fName,fjob )
 
 
 
