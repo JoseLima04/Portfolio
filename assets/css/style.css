@@ -211,11 +211,12 @@ header,
 }
 
 .about-content{
-    width: 90%;
+    width: 85%;
     color: #C4C4C4;
     margin: 1rem auto;
     line-height: 1.2rem;
     letter-spacing: 0.050rem;
+    font-size: 1.1rem;
 }
 
 
@@ -614,7 +615,6 @@ footer span a:hover{
         opacity: 1;
       }
 } 
-
 
 
 

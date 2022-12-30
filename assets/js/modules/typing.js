@@ -17,7 +17,7 @@ export default function typeWriter (nome, cargo) {
         }, 150 * index)
     })}, 1500)
 
-    setTimeout( () =>{
+    setTimeout( () => {
         const meuCargoF = cargo.split('');
         meuCargo.innerHTML='';
         meuCargoF.forEach( (letra2, index2) =>{
