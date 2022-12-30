@@ -7,27 +7,27 @@ const nameSkill = document.querySelector('.skill-title');
 const avaliableSkills = {
     html: {
       title: 'HTML5',
-      content: 'Possuo conhecimento intermediário/avançado'
+      content: 'Possuo conhecimento intermediário/avançado.'
     },
     css: {
       title: 'CSS3',
-      content: 'Possuo conhecimento intermediário'
+      content: 'Possuo conhecimento intermediário.'
     },
     git: {
       title: 'Git',
-      content: 'Possuo conhecimento básico/intermediário'
+      content: 'Possuo conhecimento básico/intermediário.'
     },
     github: {
       title: 'Github',
-      content: 'Possuo conhecimento intermediário'
+      content: 'Possuo conhecimento intermediário.'
     },
     js: {
       title: 'Javascript',
-      content: 'Possuo conhecimento básico/intermediário'
+      content: 'Possuo conhecimento básico/intermediário.'
     },   
     react: {
       title: 'ReactJs',
-      content: 'Possuo conhecimento básico'
+      content: 'Possuo conhecimento básico.'
     },
 
 }

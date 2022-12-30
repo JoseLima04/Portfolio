@@ -71,7 +71,7 @@
     top: 55px;
     right: 0;
     height: 0px;
-    z-index: 1000;   
+    z-index: 10000;   
     list-style: none;
     gap: 0.7rem;
     transition: .9s;
@@ -80,17 +80,18 @@
     border-radius: 10px;
     border: 1px solid #81D8F7;
     padding: 0 15px;
-    
+    background-color: #121212;
 }
 
 #nav.active #list-menu {
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: calc(26vh - 55px);
     visibility: visible;
     overflow-y: auto;
-    background-color: #121212;
+
 }
 
 #list-menu a {
