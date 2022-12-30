@@ -7,6 +7,7 @@
     scroll-behavior: smooth;
 }
 
+
 header {
     display: flex;
     align-items: center;
@@ -148,14 +149,9 @@ a {
     color: #E8E6E3;
 }
 
-.name::after {
-    content: "|";
-    animation: blink;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-}
 
-.home-left span{
+
+.cargo{
     font-size: 1rem;
     color: #43cbfc;
     font-weight: bolder;
@@ -251,7 +247,7 @@ header,
     height: 59px;
     border-radius: 10px;
     border: 2px solid #81D8F7;
-
+    opacity: 0;
 }
 
 .github-Button,
@@ -400,7 +396,6 @@ header,
     max-height: 500px;
     min-height: 500px;
     border-radius: 25px;
-    
 }
 
 .icon{
@@ -609,5 +604,17 @@ footer span a:hover{
     filter: invert(25%);
     transition: .5s;
 }
+
+
+@keyframes appear {
+    from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+} 
+
+
 
 

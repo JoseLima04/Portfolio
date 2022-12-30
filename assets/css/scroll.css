@@ -21,14 +21,7 @@
     transform: translate3d(0, 0, 0);
     animation: appear;
     animation-duration: 2s;
+
 }
 
 
-@keyframes appear {
-    from {
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-      }
-}
