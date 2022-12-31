@@ -1,11 +1,9 @@
-# <a href="https://portfolio-jose-lima.vercel.app/"> PORTFOLIO </a>
+<h1 align="center"><a href="https://portfolio-jose-lima.vercel.app/"> 🖥️ PORTFOLIO </a></h1>
 
-## ⚠️Em desenvolvimento⚠️
+<img src="/assets/img/printprojeto.PNG">
 
-
-<h2>📑 Descrição:</h2>
-<p>Meu portfólio. Criado com o intuito de apresentar os projetos que serão desenvolvidos durante a minha carreira e apresentar algumas de minhas habilidades na prática.<p>
-
+<h2>❔ Descrição do projeto:</h2>
+<p>Este é meu primeiro projeto de portfolio feito com intuito de apresentar um pouco sobre mim e sobre meu trabalho. Alèm de mostrar com o tempo a minha evolução</p>
 <h2> 👨‍💻Tecnologias usadas:</h2>
 
 <div style="display: inline_block">
