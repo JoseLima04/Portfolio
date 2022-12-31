@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: calc(26vh - 55px);
+    height: 200px;
     visibility: visible;
     overflow-y: auto;
 }
