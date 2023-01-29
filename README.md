@@ -3,7 +3,7 @@
 <img src="/assets/img/printprojeto.PNG">
 
 <h2>❔ Descrição do projeto:</h2>
-<p>Este é meu primeiro projeto de portfolio feito com intuito de apresentar um pouco sobre mim e sobre meu trabalho. Alèm de mostrar com o tempo a minha evolução</p>
+<p>Este é meu primeiro portfolio feito com intuito de apresentar um pouco sobre mim e sobre meu trabalho. Alèm de mostrar com o tempo a minha evolução</p>
 <h2> 👨‍💻Tecnologias usadas:</h2>
 
 <div style="display: inline_block">
