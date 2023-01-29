@@ -1,6 +1,7 @@
-<h1 align="center"><a href="https://portfolio-jose-lima.vercel.app/"> 🖥️ PORTFOLIO </a></h1>
-
 <img src="/assets/img/printprojeto.PNG">
+<h1 align="center"> 🖥️ PORTFOLIO </h1>
+<p align="center">Link para o site: <a href="https://dev-diary-zeta.vercel.app](https://portfolio-jose-lima.vercel.app/)/">aqui</a></p>
+
 
 <h2>❔ Descrição do projeto:</h2>
 <p>Este é meu primeiro portfolio feito com intuito de apresentar um pouco sobre mim e sobre meu trabalho. Alèm de mostrar com o tempo a minha evolução</p>
