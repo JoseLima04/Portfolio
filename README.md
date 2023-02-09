@@ -6,7 +6,7 @@
 <img src="/assets/img/printprojeto.PNG">
 
 <h2>❔ Descrição:</h2>
-<p>Este é meu primeiro portfolio feito com intuito de apresentar um pouco sobre mim e sobre meu trabalho. Alèm de mostrar com o tempo a minha evolução</p>
+Este é meu primeiro portfolio feito com intuito de apresentar um pouco sobre mim e sobre meu trabalho. Alèm de mostrar com o tempo a minha evolução
 
 
 <h2> 🚀 Tecnologias:</h2>
