@@ -11,7 +11,7 @@
 <p>Este é meu primeiro portfolio feito com intuito de apresentar um pouco sobre mim e sobre meu trabalho. Alèm de mostrar com o tempo a minha evolução</p>
 
 
-<h2> 💻 Tecnologias:</h2>
+<h2> 🚀 Tecnologias:</h2>
 
 <div style="display: inline_block">
   <img alt="js" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> 
