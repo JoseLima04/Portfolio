@@ -1,8 +1,6 @@
 <h1 align="center"> 🖥️ PORTFOLIO </h1>
 <p align="center">
-  <a href="https://portfolio-jose-lima.vercel.app/">Deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-descrição">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias">Tecnologias</a>
+  <a href="https://portfolio-jose-lima.vercel.app/">Ver projeto</a>
 </p>
 
 <img src="/assets/img/printprojeto.PNG">
