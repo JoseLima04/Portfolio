@@ -3,7 +3,7 @@
   <a href="https://portfolio-jose-lima.vercel.app/">Ver projeto</a>
 </p>
 
-<img src="/assets/img/printprojeto.PNG">
+<img src="https://user-images.githubusercontent.com/111407140/218595138-446e5db0-7a45-4bf4-9443-94cd0b4db4fd.PNG">
 
 <h2>❔ Descrição:</h2>
 Este é meu primeiro portfolio feito com intuito de apresentar um pouco sobre mim e sobre meu trabalho. Alèm de mostrar com o tempo a minha evolução
