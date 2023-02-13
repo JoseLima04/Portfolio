@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: #121214;
+    background-color: #171717;
 }
 
 
@@ -18,23 +18,22 @@ header {
     justify-content: space-between;
     height: 80px;
     padding: 0 12%;
-    border-bottom: 2px solid #202022ce;
     position: fixed;
     z-index: 1000;
     width: 100%;
-    background-color: #121214
+    background-color: #171717;
+    
 }
 
 
 a {
     text-decoration: none;
-    color: #C4C4C4;
 }
 
 
 .logo {
     font-size: 1.5rem;
-    color: #81D8F7;
+    color: #00DF5E;
 }
 
 
@@ -68,7 +67,7 @@ a {
 
 .job{
     font-size: 1rem;
-    color: #43cbfc;
+    color: #00DF5E;
     font-weight: bolder;
 }
 
@@ -111,8 +110,6 @@ a {
 }
 
 
-
-
 .github-Button p {
     margin: 5px 0;
     font-size: 20px;
@@ -131,7 +128,7 @@ a {
     width: 200px;
     height: 59px;
     border-radius: 10px;
-    border: 2px solid #81D8F7;
+    border: 2px solid #00DF5E;
     opacity: 0;
 }
 
@@ -182,17 +179,17 @@ a {
 
 
 .container-button-linkedin {
-    border: 1px solid #633BBC;
+    border: 1px solid #00DF5E;
 }
 
 .container-button-contato {
-    border: 1px solid #1DAE5B;
+    border: 1px solid #00DF5E;
 }
 
 .vermais-Button {
     margin-top: 15px;
     text-align: center;
-    border: 1px solid #1DAE5B;
+    border: 1px solid #00DF5E;
     padding: 10px;
     border-radius: 15px;
     width: 150px;
@@ -243,7 +240,7 @@ a {
 .section-aboutMe h2,
 .section-projects h2,
 .section-skills h2 {
-    color: #81D8F7;
+    color: #00DF5E;
     margin-top: 2rem;
     text-align: center;
     font-size: 1.8rem;
@@ -317,7 +314,7 @@ a {
     position: absolute;
     height: 3px;
     width: 70px;
-    background-color: #81D8F7;
+    background-color: #00DF5E;
     bottom: -5px;
     border-radius: 100px;  
      
@@ -344,7 +341,7 @@ a {
 }
 
 .used-techs li{
-    background-color: #00bbc5;
+    background-color: #00DF5E;
     color: #030303;
     padding: 0.2rem 0.8rem;
     border-radius: 0.3rem;
@@ -363,7 +360,7 @@ a {
 
 .button-card{
     background-color: #1b1b1b;
-    border: 1px solid #81D8F7;
+    border: 1px solid #00DF5E;
     border-radius: 5px;
     cursor: pointer;
     color: #C4C4C4;
@@ -373,7 +370,7 @@ a {
 }
 
 .button-card:hover{
-    background-color: #81D8F7;
+    background-color: #00DF5E;
     color: #000;
     transition: .3s;
 }
@@ -382,7 +379,7 @@ a {
     margin-top: 20px;
     cursor: pointer;
     border-radius: 15px;
-    border: 1px solid #00bbc5;
+    border: 1px solid #00DF5E;
     padding: 15px 40px;
     width: 150px;
     font-size: 14px;
@@ -401,7 +398,7 @@ a {
 }
 
 .other-repositories:hover{
-    color: #FFD700;
+    color: #00DF5E;
     transition: 0.5s;
 }
 
@@ -421,15 +418,15 @@ a {
 
 .skill-title{
     font-size: 1.2rem;
-    color: #f0dfdf;
-    border-left: 3px solid #81D8F7;
+    color: #00DF5E;
+    border-left: 3px solid #00DF5E;
     padding-left: 0.4rem;  
     margin-bottom: 1.2rem;
 }
 
 .skill-content{
     font-size: 1.1rem;
-    color: #E8E6E3;
+    color: #828282;
     margin-bottom: 1.4rem;
     max-width: 90%;
 }
@@ -446,7 +443,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3C4143;
+    background-color: #333333;
     height: 70px;
     width: 70px;
     border-radius: 6.25rem;
@@ -459,7 +456,7 @@ a {
     cursor: pointer;
     transform: translate(0, -10px);   
     transition: 0.3s;
-    background-color: #ff4400;
+    background-color: #FF20A1;
     filter: invert(100%);
 }
 
@@ -472,9 +469,14 @@ a {
 footer {
     text-align: center;
     padding: 2rem;
-    background-color: #1D2021;
+    background-color: #171717;
     color: #C4C4C4;
     
+}
+
+.footer-name{
+    display: inline;
+    color: #00DF5E;
 }
 
 
@@ -483,10 +485,15 @@ footer span{
     margin-bottom: 0.7rem;
 }
 
+footer span a{
+    color: #C4C4C4;
+}
+
 footer span a:hover{
     text-decoration: underline;
     filter: invert(25%);
     transition: .5s;
+    
 }
 
 

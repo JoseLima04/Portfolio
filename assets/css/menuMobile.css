@@ -12,7 +12,7 @@
     overflow-y: hidden;
     background-color: #121212;
     border-radius: 10px;
-    border: 1px solid #81D8F7;
+    border: 1px solid #00DF5E;
     padding: 0 15px;
     
 }
@@ -27,9 +27,9 @@
 }
 
 #list-menu a {
-    color: #81D8F7;
     position: relative;
     padding-bottom: 3px;
+    color: #00DF5E;
 }
 
 
@@ -43,7 +43,7 @@
     content: ' ';
     width: 0%;
     height: 2px;
-    background-color: #81D8F7;
+    background-color: #00DF5E;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -57,9 +57,9 @@
 
 .btn-menu {
     display: block;
-    border-top: 2px solid #81D8F7;
+    border-top: 2px solid #00DF5E;
     width: 20px;
-    color: #81D8F7;
+    color: #00DF5E;
 }
 
 .btn-menu:after,
