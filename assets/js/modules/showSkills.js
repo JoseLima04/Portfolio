@@ -23,7 +23,7 @@ const avaliableSkills = {
     },
     js: {
       title: 'Javascript',
-      content: 'Possuo conhecimento intermedário.'
+      content: 'Possuo conhecimento intermediário.'
     },   
     react: {
       title: 'ReactJs',
