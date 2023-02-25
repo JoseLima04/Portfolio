@@ -11,7 +11,7 @@ const avaliableSkills = {
     },
     css: {
       title: 'CSS3',
-      content: 'Possuo conhecimento intermediário.'
+      content: 'Possuo conhecimento intermediário/avançado.'
     },
     git: {
       title: 'Git',
@@ -23,7 +23,7 @@ const avaliableSkills = {
     },
     js: {
       title: 'Javascript',
-      content: 'Possuo conhecimento básico.'
+      content: 'Possuo conhecimento intermedário.'
     },   
     react: {
       title: 'ReactJs',
